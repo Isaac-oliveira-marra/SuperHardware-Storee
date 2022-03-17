@@ -137,7 +137,7 @@ module.exports = configure(function (ctx) {
     // https://quasar.dev/quasar-cli/developing-pwa/configuring-pwa
     pwa: {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
-      workboxOptions: { skipWating: true, clientsClaim: true}, // only for GenerateSW
+      workboxOptions: { skipWaiting: true, clientsClaim: true}, // only for GenerateSW
 
       // for the custom service worker ONLY (/src-pwa/custom-service-worker.[js|ts])
       // if using workbox in InjectManifest mode
@@ -147,13 +147,13 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: 'Quasar Estoque Supabase',
-        short_name: 'Quasar Estoque Supabase',
-        description: 'A Quasar Framework app',
+        name: 'SuperHarware Store',
+        short_name: 'SuperHarware Store',
+        description: 'SuperHardware Store',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
-        theme_color: '#027be3',
+        theme_color: '#2c9c6a',
         icons: [
           {
             src: 'icons/icon-128x128.png',
