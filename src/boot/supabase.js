@@ -1,4 +1,4 @@
-import { createClient } from '@Supabase/Supabase-js'
+import { createClient } from '@Supabase/supabase-js'
 import userAuthUser from 'src/Composables/userAuthUser'
 
 const supabaseURL = process.env.SUPABASE_URL
