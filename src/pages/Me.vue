@@ -53,7 +53,7 @@
 import { defineComponent, ref, onMounted } from 'vue'
 import useNotify from 'src/Composables/UseNotify'
 import useApi from 'src/Composables/UseApi'
-import useBrand from 'src/composables/UseBrand'
+import useBrand from 'src/Composables/UseBrand'
 
 export default defineComponent({
   name: 'PageMe',

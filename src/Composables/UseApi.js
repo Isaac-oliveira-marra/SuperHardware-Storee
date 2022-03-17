@@ -2,7 +2,7 @@ import useSupabase from 'src/boot/supabase'
 import userAuthUser from 'src/Composables/userAuthUser'
 import { v4 as uuidv4 } from 'uuid'
 import { useRoute } from 'vue-router'
-import useBrand from 'src/composables/UseBrand'
+import useBrand from 'src/Composables/UseBrand'
 import { ref } from 'vue'
 import { useQuasar } from 'quasar'
 
